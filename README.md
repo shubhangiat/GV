@@ -26,7 +26,9 @@ The output of each query graph is further processed and sorted based on their ch
 
 ## Example
 A sample Barabási-Albert graph has been provided in the dataset folder along with some queries and the corresponding query file.
-Following commands could be run from the base folder on the sample graph. For
+
+Following commands could be run from the base folder on the sample graph for various algorithms.
+
 * GraMar-(2,1)
   - ```two_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
 * GraMar-(3,1): three_units
