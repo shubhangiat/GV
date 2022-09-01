@@ -28,12 +28,12 @@ The output of each query graph is further processed and sorted based on their ch
 A sample Barabási-Albert graph has been provided in the dataset folder along with some queries and the corresponding query file.
 Following commands could be run from the base folder on the sample graph. For
 * GraMar-(2,1)
-  ```two_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+  - ```two_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
 * GraMar-(3,1): three_units
-  ```three_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+  - ```three_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
 * GraMar-(2,2): two_pair
-  ```two_pair/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+  - ```two_pair/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
 * GraMar-(1,1): one_unit
-  ```one_unit/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+  - ```one_unit/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
 
 
