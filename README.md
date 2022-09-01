@@ -1,5 +1,13 @@
 # GraMaR
 
+The base folder contains binary for four algorithms, each in a separate folder.
+The mapping with respect to the algorithm names in the paper to the corresponding code folder is given below.
+
+* GraMar-(2,1): two_units
+* GraMar-(3,1): three_units
+* GraMar-(2,2): two_pair
+* GraMar-(1,1): one_unit
+
 ## Command
 For each algorithm, to execute the binary file run the following command.
 
@@ -16,4 +24,16 @@ For each algorithm, to execute the binary file run the following command.
 Output is to stdout.
 The output of each query graph is further processed and sorted based on their chi-squared value.
 
+## Example
 A sample Barabási-Albert graph has been provided in the dataset folder along with some queries and the corresponding query file.
+Following commands could be run from the base folder on the sample graph. For
+* GraMar-(2,1)
+  ```two_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+* GraMar-(3,1): three_units
+  ```three_units/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+* GraMar-(2,2): two_pair
+  ```two_pair/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+* GraMar-(1,1): one_unit
+  ```one_unit/subgraph dataset/v1k_l50_labels dataset/v1k_m5_edges dataset/qry_files```
+
+
